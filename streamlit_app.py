@@ -52,7 +52,7 @@ if uploaded_file is not None:
     st.markdown("<h3>클래스별 확률:</h3>", unsafe_allow_html=True)
 
     if prediction == labels[0]:
-         st.write("중냉 꿋굿")
+         st.write("중냉")
     elif prediction == labels[1]:
          st.write("짜장면과 고춧가루는 궁합이 좋아")
     elif prediction == labels[2]:
